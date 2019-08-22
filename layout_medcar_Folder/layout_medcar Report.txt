@@ -1,0 +1,55 @@
+Package Report
+
+-----------------------------------------------------------------------------
+Document:
+Name: layout_medcar.ai
+Color Mode: RGB color
+Color Profile: sRGB IEC61966-2.1
+Ruler Units: pixels
+Artboard Dimensions: 1366 px x 768 px
+Show Images in Outline Mode: OFF
+Highlight Substituted Fonts: OFF
+Highlight Substituted Glyphs: OFF
+Preserve Text Editability
+Simulate Colored Paper: OFF
+
+-----------------------------------------------------------------------------
+Spot Color Objects:
+
+-----------------------------------------------------------------------------
+Missing Fonts:NONE
+
+-----------------------------------------------------------------------------
+Protected Fonts that were not packaged:NONE
+
+-----------------------------------------------------------------------------
+Fonts:
+Gotham-BookItalic (OTF)
+
+-----------------------------------------------------------------------------
+Embedded Fonts:
+NONE
+
+-----------------------------------------------------------------------------
+Missing Links:
+NONE
+
+-----------------------------------------------------------------------------
+Linked Images:
+
+C:\Users\Zacarias Rocha\OneDrive\Documentos\Projetos_ABM\layout_medcar\_img\Logo_consorcio.png
+Type: Transparent RGB
+Bits per Pixel: 32
+Channels: 4
+Size: 31K, 90 by 90 pixels
+Dimensions: 90 by 90 points 
+Resolution: 72 by 72 pixels per inch
+
+
+C:\Users\Zacarias Rocha\OneDrive\Documentos\Projetos_ABM\layout_medcar\_img\logo_abm.png
+Type: Transparent RGB
+Bits per Pixel: 32
+Channels: 4
+Size: 25K, 137 by 48 pixels
+Dimensions: 137 by 48 points 
+Resolution: 72 by 72 pixels per inch
