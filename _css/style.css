@@ -1,16 +1,11 @@
-@font-face{
-	font-family: gotham;
-	src:url(../_fonts/gotham-book-italic.ttf);
-}
+@import url('https://fonts.googleapis.com/css?family=Livvic:600i&display=swap');
 
-@font-face{
-	font-family: helvetica;
-	src:url(../_fonts/helveticaneue.ttf);
-}
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
 
 * {
 	margin: 0;
 	padding: 0;
+	font-family: 'Livvic', sans-serif;
 }
 
 .telaLogin{
@@ -57,26 +52,29 @@
 
 .loginTopo .texto{
 	width: 200px;
-	height: 80px;
+	height: 65px;
 	float: right;
 	border-left: solid 2px #1D77AE;
 	padding-left: 16px;
-	padding-top: 10px;
+	padding-top: 25px;
 	text-align: center;
 }
 
 .loginTopo .texto h1{
-	font: 20px gotham;
 	color: #1D77AE;
+	font-size: 18px;
 }
 
 .loginForm{
 	width: 330px;
-	height:250px;
+	height:330px;
 	margin: auto;
 	//background-color: black;
 	margin-top: 30px;
-	font: 16px gotham;
+}
+
+.loginForm{
+	color: #1D77AE;
 }
 
 .inputDados{
@@ -87,7 +85,6 @@
 	margin-top: 4px;
 	margin-bottom: 25px;
 	padding: 3px;
-	font: 16px helvetica;
 }
 
 .inputBotao {
@@ -97,8 +94,13 @@
 	border: 0px;
 	color: #fff;
 	background-color: #81b63a;
-	font: 14px gotham;
 	margin-top: 10px;
+}
+
+.loginRodape{
+	width: 137px;
+	height: 48px;
+	margin: auto;
 }
 
 @media only screen and (min-width: 780px) and (max-width: 1024px){
@@ -115,8 +117,6 @@
 		min-height: 100%;
 		margin: auto;s
 		padding-top: 72px;
-		//background-color: red;
-
 	}
 
 	.login{
@@ -125,6 +125,32 @@
 		margin: auto;
 		background-color: #EDF0F2;
 		border-radius: 20px;
+	}
+
+	.loginTopo{
+		width: 280px;
+		height: 106px;
+	}
+
+	.loginTopo .logoMedcar{
+		width: 90px;
+		height: 90px;
+		margin-right: 10px;
+	}
+
+	.loginTopo .texto{
+		width: 160px;
+		height: 65px;	
+	}
+
+	.loginForm{
+		width: 280px;
+		height:330px;
+		//margin: auto;
+	}
+
+	.inputDados{
+		width: 270px;
 	}
 
 }
@@ -153,6 +179,32 @@
 		margin: auto;
 		background-color: #EDF0F2;
 		border-radius: 20px;
+	}
+
+	.loginTopo{
+		width: 280px;
+		height: 106px;
+	}
+
+	.loginTopo .logoMedcar{
+		width: 90px;
+		height: 90px;
+		margin-right: 10px;
+	}
+
+	.loginTopo .texto{
+		width: 160px;
+		height: 65px;	
+	}
+
+	.loginForm{
+		width: 280px;
+		height:305px;
+		margin: auto;
+	}
+
+	.inputDados{
+		width: 270px;
 	}
 
 }
