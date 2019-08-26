@@ -95,6 +95,8 @@
 	color: #fff;
 	background-color: #81b63a;
 	margin-top: 10px;
+	cursor: hand;
+	cursor: pointer;
 }
 
 .loginRodape{
