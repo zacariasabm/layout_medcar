@@ -1,3 +1,13 @@
+@font-face{
+	font-family: gotham;
+	src:url(../_fonts/gotham-book-italic.ttf);
+}
+
+@font-face{
+	font-family: helvetica;
+	src:url(../_fonts/helveticaneue.ttf);
+}
+
 * {
 	margin: 0;
 	padding: 0;
@@ -20,7 +30,7 @@
 }
 
 .login{
-	width: 446px;
+	width: 400px;
 	height: 550px;
 	margin: auto;
 	background-color: #EDF0F2;
@@ -32,7 +42,7 @@
 }
 
 .loginTopo{
-	width: 414px;
+	width: 330px;
 	height: 106px;
 	margin: auto;
 	padding-top: 16px;
@@ -46,14 +56,49 @@
 }
 
 .loginTopo .texto{
-	width: 292px;
+	width: 200px;
 	height: 80px;
 	float: right;
 	border-left: solid 2px #1D77AE;
 	padding-left: 16px;
 	padding-top: 10px;
 	text-align: center;
+}
+
+.loginTopo .texto h1{
+	font: 20px gotham;
 	color: #1D77AE;
+}
+
+.loginForm{
+	width: 330px;
+	height:250px;
+	margin: auto;
+	//background-color: black;
+	margin-top: 30px;
+	font: 16px gotham;
+}
+
+.inputDados{
+	width: 320px;
+	background-color: #f1f1f1;
+	border: 0px;
+	border-bottom: solid 2px #3c82d7;
+	margin-top: 4px;
+	margin-bottom: 25px;
+	padding: 3px;
+	font: 16px helvetica;
+}
+
+.inputBotao {
+	width: 122px;
+	height: 32px;
+	border-radius: 30px;
+	border: 0px;
+	color: #fff;
+	background-color: #81b63a;
+	font: 14px gotham;
+	margin-top: 10px;
 }
 
 @media only screen and (min-width: 780px) and (max-width: 1024px){
