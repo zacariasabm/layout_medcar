@@ -4,20 +4,41 @@
 	<title>ABM - MEDCAR</title>
 	<meta charset="utf-8">
 	<meta id="viewport" name="viewport" content="width=device-width, user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="_css/style.css">
 	<link rel="stylesheet" type="text/css" href="_css/menu_style.css">
 
 	<link rel="shortcut icon" href="_img/ico_logo_consorcio.ico">
 </head>
-<body>
-	<nav>
-		<ul>
-			<a href=""><li>Extrato</li></a>
-			<a href=""><li>Extrato IR</li></a>
-			<a href=""><li>Alterar Senha</li></a>
-			<a href=""><li>Consulta Saldo Devolução</li></a>
-			<a href=""><li>Resultado da Ultima Assembleia</li></a>
-		</ul>
-	</nav>
 
+<body>
+	<script language="JavaScript" src="_js/aquarius.js" type="text/JavaScript"></script>
+
+	<div class="tela" >
+		<div class="telaInt">
+			<div class="topo"   > <!-- id="menulateral"-->
+				<div class="logoMedcar"><a href="https://consorcio.abmnet.org.br/"><img src="_img/Logo_consorcio.png"></a></div>
+				
+				<div class="menu" >
+					<nav>
+						<ul>
+							<a href="/scripts/websiac1.exe/extrato?<#cgrupocota>"><li>Extrato</li></a>
+							
+							<a class="AQTextoBlue11" href="/scripts/websiac1.exe/extratoir?<#cgrupocota>"><li>Extrato IR</li></a>
+							
+							<a href="/scripts/websiac1.exe/showpgsenha?<#cgrupocota>"><li>Alterar Senha</li></a>
+							
+							<a href="/scripts/ConsultaDevolucoes/ConsultaSaldoDevolucoesAtivos.aspx?<#cgrupocota>"><li>Consulta Saldo Devolução</li></a>
+							
+							<a href="/scripts/websiac1.exe/ultimaassembleia?<#cgrupocota>"-><li>Resultado da Última Assembléia</li></a>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			
+			
+		</div>
+		
+	</div>
+	
 </body>
 </html>

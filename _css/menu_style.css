@@ -1,36 +1,65 @@
-@import url('https://fonts.googleapis.com/css?family=Livvic:600i&display=swap');
-
-@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
-
-* {
-	margin: 0;
-	padding: 0;
-	font-family: 'Livvic', sans-serif;
+.tela, .telaInt{
+	height: 90px;
+	padding-top: 10px;
 }
 
-
-nav ul{
-	list-style: none;
-	margin-top: 10px;
+.topo {
+	width: 100%;
+	max-width:1080px;
+	height: 90px;
+	//background-color: yellow;
+	margin: auto;
 }
 
-nav ul a{
-	text-decoration: none;
-	color: #0065A4 ;
+.topo .logoMedcar {
+	float: left;
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
-nav ul li {
-
-	width: 200px;
-	height: 40px;
-	background-color: #81b63a;
-	padding: 10px;
-	margin: 2px;
-	//text-align: right;
+.menu {
+	height: 30px;
+	//background-color: red;
 	display: flex;
-	align-items: center;
+	align-items: baseline;
+	justify-content: flex-end;
+	padding-top: 60px;
+	margin-right: 20px;
+}
+
+.menu ul{
+	list-style: none;
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-end;
 	
+}
+
+.menu ul a{
+	text-decoration: none;
+	color: #1D77AE;
+}
+
+.menu ul li {
+	background-color: #F5F5F5;
+	padding: 5px 12px 5px 12px;
+	//float: left;
+	//align-items: flex-end;
+	font-size: 15px;
+	margin-right: 1px;
 
 
 }
+
+.menu ul li:hover {
+	background-color: #00619D;
+	color: #fff;
+	border-radius: 10px;
+}
+
+
+
+
+
+
 

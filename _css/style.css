@@ -8,13 +8,13 @@
 	font-family: 'Livvic', sans-serif;
 }
 
-.telaLogin{
+.telaLogin, .tela{
 	width: 100%;
 	max-width: 1920px;
 	min-height: 100%;
 }
 
-.telaLoginInt{
+.telaLoginInt, .telaInt{
 	width: 100%;
 	max-width: 1366px;
 	min-height: 100%;
@@ -107,13 +107,13 @@
 
 @media only screen and (min-width: 780px) and (max-width: 1024px){
 
-	.telaLogin{
+	.telaLogin, .tela{
 		width: 100%;
 		max-width: 1024px;
 		min-height: 100%;
 	}
 
-	.telaLoginInt{
+	.telaLoginInt, .telaInt{
 		width: 100%;
 		max-width: 1024px;
 		min-height: 100%;
