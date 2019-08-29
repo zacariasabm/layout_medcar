@@ -39,12 +39,12 @@
 	
 }
 
-.menu ul a{
+.menu ul a, .menuResponsivo .menuOpcoes ul a{
 	text-decoration: none;
 	color: #1D77AE;
 }
 
-.menu ul li {
+.menu ul li, .menuResponsivo .menuOpcoes ul li {
 	background-color: #F5F5F5;
 	padding: 5px 12px 5px 12px;
 	//float: left;
@@ -55,10 +55,77 @@
 
 }
 
-.menu ul li:hover {
+.menu ul li:hover, .menuResponsivo ul li:hover {
 	background-color: #00619D;
 	color: #fff;
 	border-radius: 10px;
+	animation-name: backgroundMenu;
+	animation-duration: 0.5s;
+}
+
+@keyframes backgroundMenu {
+	from {background-color: #F5F5F5;}
+	to {background-color: #00619D;}
+}
+
+.menuResponsivo {
+	display: none;
+	margin-right: 20px;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+.menuResponsivo ul {
+		list-style: none;
+
+	}
+
+.menuResponsivo ul li {
+		margin-bottom: 3px;
+		width: 250px;
+		height: 30px;
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+	}
+
+.menuResponsivo .imgMenu{
+	width: 36px;
+	height: 36px;
+}
+
+
+
+@media only screen and (min-width: 560px) and (max-width: 850px){
+
+	.menu{
+		display: none;
+	}
+
+	.menuResponsivo {
+		display: flex;
+	}
+
+	.menuResponsivo ul li:hover {
+		justify-content: flex-start;
+	}
+	
+}
+
+@media only screen and (max-width: 559px) {
+	.menu{
+		display: none;
+	}
+
+	.menuResponsivo {
+		display: flex;
+		
+	}
+
+	.menuResponsivo ul li:hover {
+		justify-content: flex-start;
+	}
+	
 }
 
 
