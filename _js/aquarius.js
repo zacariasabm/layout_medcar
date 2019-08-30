@@ -1,4 +1,4 @@
- document.write('<link rel="stylesheet" href="/scripts/aquarius.css" type="text/css">')
+ //document.write('<link rel="stylesheet" href="/scripts/aquarius.css" type="text/css">')
 
 
  function fab_onchange(obj)

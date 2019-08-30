@@ -18,7 +18,7 @@
 	<div class="tela">
 		<div class="telaInt">
 			<div class="topo">
-				
+				<#menu>
 			</div>
 		</div>
 	</div>
@@ -34,7 +34,7 @@
 		 					<!--</script>
 						</div>
 						<!-- Bem Vindo -->    
-						<div class="bemVindo"><p>Seja Bem Vindo ao Sistema MEDCAR, <br/>#Fulano!</p></div>
+						<div class="bemVindo"><p>Seja Bem Vindo ao Sistema MEDCAR, <br/><#nome>!</p></div>
 						<!-- DADOS -->
 						<div class="dados">
 							<table border="2">						
@@ -46,31 +46,32 @@
 								
 								<tbody>
 									<tr>
-										<td>GRUPO: </td>
-										<td>#grupo</td>
+										<th id="campo">GRUPO: </th>
+										<td id="dado"><#grupo></td>
 									</tr>
 									<tr>
-										<td>COTA: </td>
-										<td>#cota</td>
+										<th id="campo">COTA: </th>
+										<td id="dado"><#cota></td>
 									</tr>
 									<tr>
-										<td>ENDEREÇO: </td>
-										<td>#endereco</td>
+										<th id="campo">ENDEREÇO: </th>
+										<td id="dado"><#endereco> - 
+							<#complemento> - <#cidade> - <#estado> - CEP: <#cep></td>
 									</tr>
 									<tr>
-										<td>TELEFONE: </td>
-										<td>#telefone</td>
+										<th id="campo">TELEFONE: </th>
+										<td id="dado">#telefone</td>
 									</tr>
 									<tr>
-										<td>CONTEMPLAÇÃO: </td>
-										<td>#contemplacao</td>
+										<th id="campo">CONTEMPLAÇÃO: </th>
+										<td id="dado"><#dtcontemplacao></td>
 									</tr>
 								</tbody>
 							</table>
 						</div>
 						<div class="maisInformacoes">
-							<p>Este é o seu acesso de número #numero.</p>
-							<p>Último acesso foi realizado em #data às #horas.</p>
+							<p>Este é o seu acesso de número <#acesso>.</p>
+							<p>Último acesso foi realizado em <#ultimoacesso>.</p>
 						</div>
 						<div class="rodape">
 							<img src="_img/logo_abm.png">

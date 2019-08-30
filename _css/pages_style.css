@@ -1,4 +1,8 @@
 
+*{
+	color: #0065A4 ;
+}
+
 .conteudo {
 	width: 100%;
 	max-width: 1920px;
@@ -16,6 +20,7 @@
 
 .pages {
 	height: 640px;
+	//padding: 20px;
 }
 
 .pagesInt{
@@ -23,53 +28,85 @@
 	max-width: 100%;
 	height: 640px;
 	margin: auto;
-	background-color: blue;
+	//background-color: blue;
 	display: flex;
 	flex-direction: column;
+	//padding: 20px;
 }
 
 .pagesInt .data{
 	height: 40px;
-	background-color: red;
+	//background-color: red;
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
 	padding-right: 20px;
+	border-bottom: 2px solid #8DC63F;
 }
 
 .pagesInt .bemVindo{
 	height: 80px;
-	background-color: yellow;
+	//background-color: yellow;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	border-bottom: 2px solid #8DC63F;
 }
 
 .pages .dados {
 	height: 340px;
-	background-color: orange;
+	//background-color: orange;
 	display: flex;
 	justify-content: center;
 	align-items: flex-start;
 	padding-top: 20px;
+	border-bottom: 2px solid #8DC63F;
+}
+
+.dados table,th, tr, td{
+	border: 0;
+}
+
+.dados table thead tr{
+	width: 300px;
+	height: 50px;
+}
+
+table #campo{
+	width: 150px;
+	height: 30px;
+	//margin-top: 10px;
+	text-align: left;
 }
 
 .pagesInt .maisInformacoes{
 	height: 80px;
-	background-color: gray;
+	//background-color: gray;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-direction: column;
+	border-bottom: 2px solid #8DC63F;
+	font-size: 14px;
 }
 
 .pagesInt .rodape{
 	height:100px;
-	background-color: white;
+	//background-color: white;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	margin-top: 15px;
+	font-size: 11px;
 }
 
+.pagesInt .rodape img {
+	margin: 10px 0 10px 0;
+}
+
+.pagesInt .rodape p {
+	margin-bottom: 10px;
+}
 
 
