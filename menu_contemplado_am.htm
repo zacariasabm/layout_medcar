@@ -7,15 +7,17 @@
 	<link rel="stylesheet" type="text/css" href="_css/style.css">
 	<link rel="stylesheet" type="text/css" href="_css/menu_style.css">
 
+	<script language="JavaScript" src="_js/aquarius.js" type="text/JavaScript"></script>
+	<script type="text/javascript" src="_js/script.js"></script>
+
 	<link rel="shortcut icon" href="_img/ico_logo_consorcio.ico">
 </head>
 
 <body>
-	<script language="JavaScript" src="_js/aquarius.js" type="text/JavaScript"></script>
-
+	
 	<div class="tela">
 		<div class="telaInt">
-			<div class="topo"   > <!-- id="menulateral"-->
+			<div class="topo"> <!-- id="menulateral"-->
 				<div class="logoMedcar"><a href="https://consorcio.abmnet.org.br/"><img src="_img/Logo_consorcio.png"></a></div>
 				
 				<div class="menu" >
@@ -36,9 +38,10 @@
 
 				<div class="menuResponsivo">
 					<div class="imgMenu">
-						<img src="_img/menu_fechado.png">
+						<img id="btFechado" src="_img/menu_fechado.png" onclick="menuResponsivo()">
+						<img id="btAberto" src="_img/menu_aberto.png" onclick="menuResponsivo()">
 					</div>
-					<div class="menuOpcoes">
+					<div id="opcoes" class="menuOpcoes">
 						<nav>
 							<ul>
 								<a href="/scripts/websiac1.exe/extrato?<#cgrupocota>"><li>Extrato</li></a>
