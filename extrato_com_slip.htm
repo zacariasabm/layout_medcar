@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MEDCAR - Extrato</title>
+	<meta charset="utf-8">
+	<meta id="viewport" name="viewport" content="width=device-width, user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="_css/style.css">
+	<link rel="stylesheet" type="text/css" href="_css/menu_style.css">
+	<link rel="stylesheet" type="text/css" href="_css/pages_style.css">
+	
+	<link rel="shortcut icon" href="_img/ico_logo_consorcio.ico">
+
+	<script language="JavaScript" src="_js/default.js" type="text/JavaScript"></script>
+	<script language="JavaScript" src="_js/aquarius.js" type="text/JavaScript"></script>
+	<script language="JavaScript" src="_js/datas.js" type="text/JavaScript"></script>
+</head>
+<body>
+	<div class="tela">
+		<div class="telaInt">
+			<div class="topo">
+				<div class="pages">
+					<div class="pagesInt">
+						<#menu>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="conteudo">
+		<div class="conteudoInt">
+				<div class="pages">
+					<div class="pagesInt">
+						<!-- Data -->
+						
+						<!-- Bem Vindo -->    
+						<div class="bemVindo"><p><#nome><br/></p>
+							
+						</div>
+						<div class="tituloData">
+							<h1>EXTRATO</h1>
+						</div>
+						<!-- PLANO -->
+						<div class="dados">
+							<table id="plano" border="2">						
+								<thead>
+									<tr>
+										<th colspan="2">Plano</th>
+									</tr>
+								</thead>
+								
+								<tbody>
+									<tr>
+										<th id="campo">Bem: </th>
+										<td id="dado"><#bem></td>
+									</tr>
+									<tr>
+										<th id="campo">Valor do Bem: </th>
+										<td id="dado"><#preco></td>
+									</tr>
+									
+								</tbody>
+							</table>
+							<table id="proxPagamento" border="2">						
+								<thead>
+									<tr>
+										<th colspan="2">Próximo Pagamento (Parcela)</th>
+									</tr>
+								</thead>
+								
+								<tbody>
+									<tr>
+										<td colspan="2" id="dado"><#pxContrib></td>
+										
+									</tr>
+																		
+								</tbody>
+							</table>
+						</div>
+						<!-- DADOS -->
+						<div class="dados">
+							<table border="2">						
+								<thead>
+									
+									<tr>
+										<th colspan="6">Pagamentos Realizados</th>
+									</tr>
+								</thead>
+								
+								<tbody>
+									<tr>
+										<th>Parcela</th>
+										<th>Vencimento</th>
+										<th>Pagamento</th>
+										<th>Valor</th>
+										<th>Histórico</th>
+										<th>% Pago</th>
+									</tr>
+									<tr>
+										<td colspan="6" id="dado"><#pagamentos></td>
+									</tr>
+									
+								</tbody>
+							</table>
+						</div>
+
+						<div class="dados">
+							<table border="2">						
+								<thead>
+									
+									<tr>
+										<th colspan="5">Parcelas Pendentes</th>
+									</tr>
+								</thead>
+								
+								<tbody>
+									<tr>
+										<th>Parcela</th>
+										<th>Vencimento</th>
+										<th>Valor</th>
+										<th>% Pendente</th>
+										<th>2ª via</th>
+									</tr>
+									<tr>
+										<td colspan="2" id="dado"><#pagamentos></td>
+									</tr>
+									
+								</tbody>
+							</table>
+						</div>
+
+						<div class="dados">
+							<table id="proxAssembleia" border="2">						
+								<thead>
+									<tr>
+										<th colspan="2">Próxima Assembléia</th>
+									</tr>
+								</thead>
+								
+								<tbody>
+									<tr>
+										<td id="dado"><#proxassembleia></td>
+									</tr>
+									
+								</tbody>
+							</table>
+							<table id="resUltAssembleia" border="2">		
+								<tbody>
+									<tr>
+										<td id="dado"><#ultimaassembleia></td>
+									</tr>
+									
+								</tbody>
+							</table>
+						</div>
+						<div class="rodape">
+							<img src="_img/logo_abm.png">
+							<p>Layout construido pelo TI da Associação Bahiana de Medicina</p>
+							<p>Todos os diretos do sistema reservados a Aquarius Tec. e Inf. Ltda</p>
+						</div>
+				</div>
+			</div>	
+		</div>
+		
+	</div>
+
+</body>
+</html>
+
+	
