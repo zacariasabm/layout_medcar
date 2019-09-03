@@ -78,6 +78,8 @@
 
 .menuResponsivo ul {
 		list-style: none;
+		position: absolute;
+		right: 25px;
 		
 	}
 
